@@ -1,0 +1,12 @@
+{
+  "name": "web_sass",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["SASS", "CSS"],
+  "author": "Alejandro Cerezo",
+  "license": "ISC"
+}
