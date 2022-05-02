@@ -4,9 +4,20 @@
   "description": "Aprendiendo SASS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w scss/:css/",
+    "sass:v": "sass --version"
   },
-  "keywords": ["SASS", "CSS"],
+  "keywords": [
+    "SASS",
+    "CSS"
+  ],
   "author": "Alejandro Cerezo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.50.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
