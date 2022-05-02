@@ -1,0 +1,61 @@
+// @import "variables.scss";
+@use "variables" as *;
+
+@mixin usual-colors {
+    color: $primary-color;
+    background-color: $secondary-color;
+}
+
+body {
+    font: 100% $font-stack;
+    @include usual-colors();
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+        @include usual-colors();
+    }
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
+
+@mixin x-message-shared {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+.x-message {
+    @include x-message-shared;
+}
+
+.x-success {
+    @include x_message-shared;
+    border-color: black;
+}
+
+%message-shared {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+.message {
+    @extend %message-shared;
+}
+
+.success {
+    @extend %message-shared;
+    border-color: black;
+}
+
+@import "w700.scss";

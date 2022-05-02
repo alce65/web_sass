@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.header__login > ul, .header__menu > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.header__login-item, .header__menu-item {
+  padding: 1rem;
+}
+
+.header {
+  min-height: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu {
+  flex-grow: 2;
+  background-color: bisque;
+}
+
+/*# sourceMappingURL=bem.css.map */

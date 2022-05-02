@@ -1,0 +1,52 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background-color: rgb(51, 2, 2);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  color: #333;
+  background-color: rgb(51, 2, 2);
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.x-message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.x-success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+  border-color: black;
+}
+
+.success, .message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: black;
+}
+
+@media (min-width: 700px) {
+  body {
+    background-color: white;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
